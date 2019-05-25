@@ -45,6 +45,12 @@ A twitter bot which predicts donald trumps next potential tweet
     api = tweepy.API(auth)
     ```
 
+## Functionality of the Bot :
+ - At the moment __DonaldsTweet__ tweeets a potential tweet which is generated based on the last 100 tweets from Donal Trump
+
+## Tweet Generation Model :
+ - We use the `Markov Chain Model` with a history of 2 words and make a markov tree based on the inputs.
+ - To generate a random tweet we select a random path from the root of the tree to the end, giving us a grammatically correct tweet.
 
 ## A project by :
 > ### Clara Hong

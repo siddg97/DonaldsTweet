@@ -3,7 +3,8 @@ A twitter bot which predicts donald trumps next potential tweet
 
 
 ## APIs Used:
- - ### [tweepy](https://github.com/tweepy/tweepy) - a python library for the twitter API
+ - __[tweepy](https://github.com/tweepy/tweepy)__ - a python library for the twitter API
+ - Documentation can be found __[here](./tweepy.pdf)__ !
  
 ## Setup for API:
  - `pip3 install tweepy` - For python 3 and up

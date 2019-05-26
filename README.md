@@ -47,7 +47,7 @@ A twitter bot which predicts donald trumps next potential tweet
     ```
 
 ## Functionality of the Bot :
- - At the moment __DonaldsTweet__ tweeets a potential tweet which is generated based on the last 100 tweets from Donal Trump
+ - At the moment __DonaldsTweet__ tweets a potential tweet which is generated based on the last 100 tweets from Donal Trump
 
 ## Tweet Generation Model :
  - We use the `Markov Chain Model` with a history of 2 words and make a markov tree based on the inputs.
